@@ -113,7 +113,9 @@ function Home() {
                 I'm a web developer based in India, specializing in building exceptional websites and mobile applications, and everything in between.
             </SummeryText>
             <ButtonContainer>
-                <Button>Resume</Button>
+                <a href="../../src/Resume.pdf" download>
+          <Button >Resume</Button>
+        </a>
                 <Link href="#contact">Get in touch</Link>
 
 
