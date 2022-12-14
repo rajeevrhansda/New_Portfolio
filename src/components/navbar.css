@@ -1,0 +1,11 @@
+span{
+    width: max-content;
+    height: max-content;
+    padding: 0.5em;
+    border-radius: 50%;
+    outline: 1px solid rgb(6, 147, 227) ;
+}
+
+span.active{
+    background-color: rgb(6, 147, 227);
+}

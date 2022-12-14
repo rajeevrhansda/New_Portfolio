@@ -1,0 +1,7 @@
+1. List all site components, sections and pages
+2. npm install --save styled-components
+3. Theme styled-components
+4. Dark mode toggle
+    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    import NightlightIcon from '@mui/icons-material/Nightlight';
+    <NightlightIcon />
