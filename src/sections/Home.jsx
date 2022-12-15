@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Resume from "../Resume.pdf";
+
 
 const HomeContainer = styled.div`
     height: calc(100vh - 55px);
@@ -113,9 +115,9 @@ function Home() {
                 I'm a web developer based in India, specializing in building exceptional websites and mobile applications, and everything in between.
             </SummeryText>
             <ButtonContainer>
-                <a href="../../src/Resume.pdf" download>
-          <Button >Resume</Button>
-        </a>
+                <a href={Resume}>
+          <Button>Resume</Button>
+</a>
                 <Link href="#contact">Get in touch</Link>
 
 
