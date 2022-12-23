@@ -43,6 +43,9 @@ const Left = styled.div`
 const IconLInk = styled.a`
     font-size : clamp(1.5em, 3vw, 2em);
     color: ${({ theme }) => theme.text};
+    :hover{
+      color: ${({ theme }) => theme.themeColor};
+    }
 `;
 
 

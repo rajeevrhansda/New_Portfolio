@@ -131,7 +131,7 @@ font-weight: 300;
   padding-bottom: 1em ;
 `;
 const SkillsCard = styled.div`
-  width: 80%;
+  /* width: 80%; */
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
@@ -349,10 +349,10 @@ function Projects() {
                                     <i className="fa-solid fa-folder-open"></i>
                                 </IconLeft>
                                 <IconRight>
-                                    <a href={data.pLink} target="_blank" rel="noreferrer" style={{ color: "inherit" }}>
+                                    <a href={data.pGitLink} target="_blank" rel="noreferrer" style={{ color: "inherit" }}>
                                         <i className="fa-brands fa-github"></i>
                                     </a>
-                                    <a href={data.pGitLink} target="_blank" rel="noreferrer" style={{ color: "inherit" }}>
+                                    <a href={data.pLink} target="_blank" rel="noreferrer" style={{ color: "inherit" }}>
                                         <i className="fa-solid fa-share-from-square"></i>
                                     </a>
                                 </IconRight>
