@@ -112,9 +112,9 @@ function Contact() {
                 </CardLeft>
                 <CardRight>
                     <Form ref={form} onSubmit={sendEmail} >
-                        <Input type="text" name="user_name" className="user" placeholder="Name" />
-                        <Input type="email" name="user_email" className="user" placeholder="Email" />
-                        <Textarea name="message" className="user" placeholder="Message" rows="5" />
+                        <Input type="text" name="user_name" className="user" placeholder="Name" required/>
+                        <Input type="email" name="user_email" className="user" placeholder="Email" required/>
+                        <Textarea name="message" className="user" placeholder="Message" rows="5" required/>
                         <SendButton type="submit" value="Send" className="button">Send</SendButton>
                         <h2>{done && "Thanks for Contacting me"}</h2>
                     </Form>
